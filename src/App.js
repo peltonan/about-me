@@ -15,10 +15,10 @@ function App() {
           </div>
 
           <div>
-            <ul>
-              <li className="liAboutMe">About Me</li>
-              <li className="liProjects">Projects</li>
-              <li className="liContact">Contact</li>
+            <ul className="liOptions">
+              <li className="navigation">About Me</li>
+              <li className="navigation">Projects</li>
+              <li className="navigation">Contact</li>
             </ul>
           </div>
         </section>
