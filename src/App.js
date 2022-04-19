@@ -15,25 +15,32 @@ function App() {
           </div>
 
           <div>
-            <ul className="liOptions">
-              <li className="navigation">About Me</li>
-              <li className="navigation">Projects</li>
-              <li className="navigation">Contact</li>
+            <ul>
+              <li className="navigation">
+                <a href="#textAboutMe">About Me</a>
+              </li>
+
+              <li className="navigation">
+                <a href="#showProjects">Projects</a>
+              </li>
+
+              <li className="navigation">
+                <a href="#contactInformation">Contact</a>
+              </li>
             </ul>
           </div>
         </section>
 
       </div>
 
-      <section className="aboutMe">
+      <section id="textAboutMe">
         <div className="container">
-
-          <h2>About Me</h2>
+          <h2 className="textAboutMe">About Me</h2>
           <p>Text about me</p>
         </div>
       </section>
 
-      <section className="projects">
+      <section id="showProjects">
         <div className="container">
           <h2>Projects</h2>
 
@@ -43,7 +50,7 @@ function App() {
 
 
 
-      <section className="contact">
+      <section id="contactInformation">
         <div className="container">
 
           <h2>Contact</h2>

@@ -36,35 +36,44 @@ h2 {
   background-color: rgb(172, 252, 217, 0.1);
   list-style-type: none;
   padding-right: 1rem;
-}
-
-.aboutMe {
-  font-size: 40px;
-  background: #222222;
-  color: white;
-  padding: 30px 10px 5px 10px;
-  top: 0;
-  left: 60px;
-}
-
-.projects {
-  font-size: 40px;
-  background: #222222;
-  color: white;
-  padding: 30px 10px 5px 10px;
-  top: 0;
-  left: 60px;
+  transition: 0.3s;
 
 }
 
-.contact {
+.navigation:hover {
+  font-size: 35px;
+}
+
+.liAboutMe {
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(43, 48, 58)
+}
+
+#textAboutMe {
+  background: linear-gradient(81deg, rgb(238, 212, 248) 10% 10%, rgb(53, 143, 165) 90%);
   font-size: 40px;
-  background: #222222;
-  color: white;
   padding: 30px 10px 5px 10px;
-  top: 0;
   left: 60px;
 
+}
+
+#showProjects {
+  background: linear-gradient(100deg, rgb(238, 212, 248) 10% 10%, rgb(53, 143, 165) 90%);
+  font-size: 40px;
+  padding: 30px 10px 5px 10px;
+  left: 60px;
+
+}
+
+#contactInformation {
+  background: linear-gradient(81deg, rgb(238, 212, 248) 10% 10%, rgb(53, 143, 165) 90%);
+  font-size: 40px;
+  padding: 30px 10px 5px 10px;
+  left: 60px;
 }
 
 .container {
