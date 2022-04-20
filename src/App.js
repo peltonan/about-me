@@ -2,6 +2,20 @@ import './App.css';
 import projectOne from './images/feelingsFirstAid.png'
 
 function App() {
+  //Smooth Transition When Clicking Anchor Tags//
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+
+        //Mouse Listener and Shiny Text//
+
+
+
+      });
+    });
+  });
   return (
 
 
@@ -11,8 +25,8 @@ function App() {
         </div>
         <section className="intro">
           <div>
-            <h1>Annette Peltonen</h1>
-            <h2>Future Front End Developer</h2>
+            <h1 className="myName">Annette Peltonen</h1>
+            <h2 className="title"><span className="shinyEffect">Future</span><div>Front End Developer</div></h2>
           </div>
 
           <div>
@@ -89,7 +103,11 @@ function App() {
 
         </div>
       </section>
+
+      <footer></footer>
+
     </div >
+
   );
 }
 
