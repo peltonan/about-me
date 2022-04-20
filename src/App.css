@@ -18,13 +18,11 @@
 }
 
 h1 {
-  background-color: rgb(172, 252, 217, 0.1);
   padding-right: 2rem;
   padding: 0.2rem;
 }
 
 h2 {
-  background: rgb(172, 252, 217, 0.1);
   padding-right: 1rem;
   padding: 0.2rem;
 }
@@ -74,7 +72,7 @@ a {
 .container {
   max-width: 1100px;
   margin: auto;
-  padding: 6rem;
+  padding: 5rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -86,8 +84,75 @@ span {
   font-weight: bold;
 }
 
-.image {
+.allProjects {
   display: flex;
-  width: 80%;
-  height: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projectOne {
+  display: grid;
+  grid-template-columns: 310px;
+  grid-template-rows: 200px 50px 170px 50px;
+  background: rgb(255, 255, 255);
+  margin: 15px;
+  box-shadow: 0px 0px 2px rgb(53, 143, 165) 90%);
+  border-bottom: 6px solid rgb(238, 212, 248);
+}
+
+.projectPicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+
+}
+
+.projectTools {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #c8c8c8;
+}
+
+.projectDescription {
+  text-align: left;
+  font-size: 18px;
+  padding: 0 20px;
+
+}
+
+.projectLinks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+
+.gitHub {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.LinkedInLink {
+  color: rgb(53, 143, 165);
+}
+
+.LinkedInLink:hover {
+  color: rgb(0, 114, 177);
+  text-decoration: underline;
 }

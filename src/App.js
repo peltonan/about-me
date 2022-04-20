@@ -1,4 +1,5 @@
 import './App.css';
+import projectOne from './images/feelingsFirstAid.png'
 
 function App() {
   return (
@@ -54,10 +55,29 @@ function App() {
       <section id="showProjects">
         <div className="container">
           <h2>Projects</h2>
+          <div className="allProjects">
+            <div className="projectOne">
+              <div className="projectPicture">
+                <a><img src={projectOne} className="image" alt="project"></img></a>
 
-          <div className="allProjects"></div>
+              </div>
+              <div className="projectTools">
+                <p>HTML - CSS - REACT</p>
+              </div>
+
+              <div className="projectDescription">
+                <h4>Feelings First Aid</h4>
+                <p>A tool giving tips how to improve your mood! Survey with yes/no questions.</p>
+              </div>
+
+              <div className="projectLinks">
+                <a className="gitHub" href="link to page" target="_blank">GitHub</a>
+
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+      </section >
 
 
 
@@ -65,6 +85,8 @@ function App() {
         <div className="container">
 
           <h2>Contact</h2>
+          <p>You can find me on <a className="LinkedInLink" href='https://www.linkedin.com/in/annette-peltonen-800988197'>LinkedIn</a></p>
+
         </div>
       </section>
     </div >
