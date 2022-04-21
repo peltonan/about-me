@@ -1,5 +1,6 @@
 import './App.css';
 import projectOne from './images/feelingsFirstAid.png'
+import pictureMe from './images/netteCoding.png'
 
 function App() {
   //Smooth Transition When Clicking Anchor Tags//
@@ -9,19 +10,19 @@ function App() {
       document.querySelector(this.getAttribute('href')).scrollIntoView({
         behavior: 'smooth'
 
-        //Mouse Listener and Shiny Text//
-
-
-
       });
     });
   });
   return (
 
-
     <div className="App">
       <div className="headerGrid">
         <div>
+        </div>
+        <div>
+        </div>
+        <div className="introPicture">
+          <img src={pictureMe} className="pictureMe" alt="hello" />
         </div>
         <section className="intro">
           <div>
@@ -72,7 +73,7 @@ function App() {
           <div className="allProjects">
             <div className="projectOne">
               <div className="projectPicture">
-                <a><img src={projectOne} className="image" alt="project"></img></a>
+                <a><img src={projectOne} className="imageOne" alt="project"></img></a>
 
               </div>
               <div className="projectTools">
@@ -85,7 +86,7 @@ function App() {
               </div>
 
               <div className="projectLinks">
-                <a className="gitHub" href="link to page" target="_blank">GitHub</a>
+                <a className="gitHub" href="https://github.com/peltonan/feelings-first-aid">GitHub</a>
 
               </div>
             </div>
