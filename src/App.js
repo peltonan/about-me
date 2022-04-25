@@ -17,10 +17,6 @@ function App() {
 
     <div className="App">
       <div className="headerGrid">
-        <div>
-        </div>
-        <div>
-        </div>
         <div className="introPicture">
           <img src={pictureMe} className="pictureMe" alt="hello" />
         </div>
