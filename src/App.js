@@ -26,8 +26,8 @@ function App() {
         </div>
         <section className="intro">
           <div>
-            <h1 className="myName">Annette Peltonen</h1>
-            <h2 className="title"><span className="shinyEffect">Future</span><div>Front End Developer</div></h2>
+            <h1 className="myName">Annette<div>Peltonen</div></h1>
+            <h2 className="title"><div>Future</div><div>Front End<div>Developer</div></div></h2>
           </div>
 
           <div>
@@ -47,7 +47,7 @@ function App() {
           </div>
         </section>
 
-      </div>
+      </div >
 
       <section id="textAboutMe">
         <div className="container">
@@ -55,7 +55,7 @@ function App() {
           <p>I'm a kindergarten teacher in the middle of a career change. I've lived in the Helsinki Metropolitan Area for 12 years studying and working.
             I'm originally from the countryside where you can see farmlands and forests when looking outside the window.</p>
 
-          <p>I've worn many hats in the past and now I'm wearing one saying: Front End Developer. I've started in boot camp in January 2022, learning the basics of <span>HTML</span>, <span>CSS</span> and <span>Javascript</span>.
+          <p>I've worn many hats in the past and now I'm wearing one saying: Junior Front End Developer. I've started in boot camp in January 2022, learning the basics of <span>HTML</span>, <span>CSS</span> and <span>Javascript</span>.
             In March 2022, I started doing my own projects. I have two mentors who have been in the field for over 10 years, teaching and assisting me. Currently, I'm learning <span>React</span>.</p>
 
           <p>I'm constantly learning new things and want to get better. I love working on the computer and have a passion for design. I also have skills in video editing, 3D modeling and art. I'm also interested in languages, I'm fluent in: English, Finnish and Swedish.</p>
@@ -99,7 +99,7 @@ function App() {
       <section id="contactInformation">
         <div className="container">
 
-          <h2>Contact</h2>
+          <h2 className="contactText">Contact</h2>
           <p>You can find me on <a className="LinkedInLink" href='https://www.linkedin.com/in/annette-peltonen-800988197'>LinkedIn</a></p>
 
         </div>
