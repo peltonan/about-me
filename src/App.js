@@ -1,6 +1,7 @@
 import './App.css';
 import projectOne from './images/feelingsFirstAid.png'
 import pictureMe from './images/netteCoding.png'
+import logo from './images/logoNette.png'
 
 function App() {
   //Smooth Transition When Clicking Anchor Tags//
@@ -19,14 +20,15 @@ function App() {
       <div className="headerGrid">
         <div className="introPicture">
           <img src={pictureMe} className="pictureMe" alt="hello" />
+          <img src={logo} className="logo" alt="hello" />
         </div>
         <section className="intro">
-          <div>
+          <div className="nameTitleWrapper">
             <h1 className="myName">Annette<div>Peltonen</div></h1>
             <h2 className="title"><div>Future</div><div>Front End<div>Developer</div></div></h2>
           </div>
 
-          <div>
+          <div className="navigationWrapper">
             <ul>
               <li className="navigation">
                 <a href="#textAboutMe">About Me</a>
