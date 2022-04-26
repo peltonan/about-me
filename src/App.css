@@ -158,6 +158,13 @@
   }
 }
 
+@media only screen and (max-width: 630px) {
+  .navigation {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .navigationWrapper {
     max-height: 37px;
