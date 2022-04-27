@@ -184,6 +184,13 @@ a {
   margin: auto;
 }
 
+@media only screen and (max-width: 630px) {
+  .aboutMeWrapper {
+    font-size: 20px;
+    padding: 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   #textAboutMe {
     text-align: center;
@@ -194,6 +201,7 @@ a {
 @media only screen and (max-width: 630px) {
   #textAboutMe {
     text-align: center;
+    font-size: 20px;
   }
 }
 
@@ -206,6 +214,12 @@ a {
   height: 90vh;
   padding-top: 2rem;
   justify-content: center;
+}
+
+@media only screen and (max-width: 630px) {
+  #showProjects {
+    font-size: 20px;
+  }
 }
 
 #contactInformation {
@@ -226,6 +240,7 @@ a {
 @media only screen and (max-width: 630px) {
   #contactInformation {
     text-align: center;
+    font-size: 20px;
   }
 }
 
@@ -282,6 +297,12 @@ span {
   padding-left: 1rem;
 }
 
+@media only screen and (max-width: 630px) {
+  .projectOne {
+    font-size: 20px;
+  }
+}
+
 .projectDescription {
   text-align: left;
   font-size: 18px;
@@ -314,7 +335,7 @@ span {
   text-decoration: underline;
 }
 
-.imageOne {
+.image {
   height: 100%;
   width: 100%;
   object-fit: contain;
