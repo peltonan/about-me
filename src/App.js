@@ -48,7 +48,7 @@ function App() {
       </div >
 
       <section id="textAboutMe">
-        <div className="container">
+        <div className="container aboutMeWrapper">
           <h2 className="textAboutMe">About Me</h2>
           <p>I'm a kindergarten teacher in the middle of a career change. I've lived in the Helsinki Metropolitan Area for 12 years studying and working.
             I'm originally from the countryside where you can see farmlands and forests when looking outside the window.</p>
