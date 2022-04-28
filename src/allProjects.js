@@ -1,5 +1,6 @@
 //Map Function for Project Section//
 import projectOne from './images/feelingsFirstAid.png';
+import projectTwo from './images/imageMe.png'
 
 export const projects = [
     {
@@ -9,5 +10,13 @@ export const projects = [
         projectDescription: "A tool giving tips how to improve your mood! Survey with yes/no questions.",
         githubLink: "https://github.com/peltonan/feelings-first-aid",
     },
+    {
+        projectPicture: projectTwo,
+        projectTools: "HTML - CSS - REACT",
+        projectTitle: "Personal Website",
+        projectDescription: "This site you're looking at now. Check it out on Github!",
+        githubLink: "https://github.com/peltonan/about-me",
+    },
+
 
 ]
