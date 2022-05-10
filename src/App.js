@@ -1,5 +1,5 @@
 import './App.css';
-import projectOne from './images/feelingsFirstAid.png';
+
 import pictureMe from './images/netteCoding.png';
 import logo from './images/logoNette.png';
 import ProjectCard from './components/ProjectCard';
@@ -8,23 +8,25 @@ import AboutMe from './components/AboutMe';
 import { useEffect } from 'react';
 import { projects } from './allProjects';
 
+//Smooth Transition When Clicking Anchor Tags//
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+
+
+    });
+  });
+});
+
 function App() {
 
   useEffect(() => {
     document.title = "Annette Peltonen - Front End Portfolio"
   }, []);
 
-  //Smooth Transition When Clicking Anchor Tags//
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
 
-
-      });
-    });
-  });
   return (
 
     <div className="App">

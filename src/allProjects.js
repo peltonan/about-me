@@ -9,6 +9,7 @@ export const projects = [
         projectTools: "HTML - CSS - REACT",
         projectTitle: "Survey with yes/no questions",
         projectDescription: "A tool giving tips how to improve your mood!",
+        projectLink: "https://feelings-first-aid.vercel.app/",
         githubLink: "https://github.com/peltonan/feelings-first-aid",
     },
     {
@@ -23,6 +24,7 @@ export const projects = [
         projectTools: "HTML - CSS - REACT",
         projectTitle: "Quote Generator",
         projectDescription: "Gives a random quote with a button press!",
+        projectLink: "https://quote-generator-peltonan.vercel.app/",
         githubLink: "https://github.com/peltonan/random-generator",
     },
 ]
