@@ -16,7 +16,7 @@ const ProjectCard = ({ projectInformation }) => {
                 </div>
                 <div className="projectLinks">
                     <div>{projectInformation.projectLink && <a className="projectLink" href={projectInformation.projectLink}>Visit</a>}</div>
-                    <div>{projectInformation.githubLink && <a className="gitHub" href={projectInformation.githubLink}>GitHub</a>}</div>
+                    <div>{projectInformation.githubLink && <a className="projectLink" href={projectInformation.githubLink}>GitHub</a>}</div>
                 </div>
             </div>
         </div>

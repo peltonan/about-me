@@ -8,24 +8,19 @@ import AboutMe from './components/AboutMe';
 import { useEffect } from 'react';
 import { projects } from './allProjects';
 
-//Smooth Transition When Clicking Anchor Tags//
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
-
-
-    });
-  });
-});
-
 function App() {
 
   useEffect(() => {
     document.title = "Annette Peltonen - Front End Portfolio"
   }, []);
 
+  // Smooth scroll to ID //
+  const smoothScroll = (event) => {
+    event.preventDefault()
+    document.querySelector(event.target.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
 
   return (
 
@@ -44,15 +39,15 @@ function App() {
           <div className="navigationWrapper">
             <ul>
               <li className="navigation">
-                <a href="#textAboutMe">About Me</a>
+                <a href="#textAboutMe" onClick={(e) => smoothScroll(e)}>About Me</a>
               </li>
 
               <li className="navigation">
-                <a href="#showProjects">Projects</a>
+                <a href="#showProjects" onClick={(e) => smoothScroll(e)}>Projects</a>
               </li>
 
               <li className="navigation">
-                <a href="#contactInformation">Contact</a>
+                <a href="#contactInformation" onClick={(e) => smoothScroll(e)}>Contact</a>
               </li>
             </ul>
           </div>
