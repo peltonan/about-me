@@ -209,16 +209,23 @@ a {
   display: flex;
   background: linear-gradient(81deg, rgb(238, 212, 248) 10% 10%, rgb(53, 143, 165) 90%);
   font-size: 30px;
-  left: 60px;
   color: rgb(43, 48, 58);
   height: 90vh;
   padding-top: 2rem;
   justify-content: center;
 }
 
+@media only screen and (max-width: 1040px) {
+  #showProjects {
+    font-size: 20px;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 630px) {
   #showProjects {
     font-size: 20px;
+    height: auto;
   }
 }
 
@@ -258,6 +265,11 @@ span {
   font-weight: bold;
 }
 
+h1 span,
+h2 span {
+  display: block;
+}
+
 .allProjects {
   display: flex;
   justify-content: center;
@@ -294,7 +306,7 @@ span {
   font-size: 15px;
   font-weight: 400;
   color: #c8c8c8;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
 }
 
 @media only screen and (max-width: 630px) {

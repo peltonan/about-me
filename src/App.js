@@ -2,11 +2,18 @@ import './App.css';
 import projectOne from './images/feelingsFirstAid.png';
 import pictureMe from './images/netteCoding.png';
 import logo from './images/logoNette.png';
-import { projects } from './allProjects';
 import ProjectCard from './components/ProjectCard';
 import AboutMe from './components/AboutMe';
 
+import { useEffect } from 'react';
+import { projects } from './allProjects';
+
 function App() {
+
+  useEffect(() => {
+    document.title = "Annette Peltonen - Front End Portfolio"
+  }, []);
+
   //Smooth Transition When Clicking Anchor Tags//
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -28,8 +35,8 @@ function App() {
         </div>
         <section className="intro">
           <div className="nameTitleWrapper">
-            <h1 className="myName">Annette<div>Peltonen</div></h1>
-            <h2 className="title"><div>Future</div><div>Front End<div>Developer</div></div></h2>
+            <h1 className="myName">Annette<span>Peltonen</span></h1>
+            <h2 className="title"><span>Future</span><span>Front End<span>Developer</span></span></h2>
           </div>
 
           <div className="navigationWrapper">
