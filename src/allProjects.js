@@ -8,7 +8,7 @@ export const projects = [
     {
         projectPicture: projectOne,
         projectTools: "HTML - CSS - REACT",
-        projectTitle: "Survey with yes/no questions",
+        projectTitle: "Survey with yes/no Questions",
         projectDescription: "A tool giving tips how to improve your mood!",
         projectLink: "https://feelings-first-aid.vercel.app/",
         githubLink: "https://github.com/peltonan/feelings-first-aid",
