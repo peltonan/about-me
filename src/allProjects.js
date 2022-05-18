@@ -2,6 +2,7 @@
 import projectOne from './images/feelingsFirstAid.png';
 import projectTwo from './images/imageMe.png'
 import projectThree from './images/feelBetterQuotes.png'
+import projectFour from './images/tetris.png'
 
 export const projects = [
     {
@@ -26,5 +27,13 @@ export const projects = [
         projectDescription: "Gives a random quote with a button press!",
         projectLink: "https://quote-generator-peltonan.vercel.app/",
         githubLink: "https://github.com/peltonan/random-generator",
+    },
+    {
+        projectPicture: projectFour,
+        projectTools: "HTML - CSS - REACT",
+        projectTitle: "Code-along Project",
+        projectDescription: "Tetris done following a Code-along, and then adding my own styles to it. Check it out!",
+        projectLink: "https://tetris-peltonan.vercel.app",
+        githubLink: "https://github.com/peltonan/tetris",
     },
 ]
