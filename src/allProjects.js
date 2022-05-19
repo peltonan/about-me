@@ -32,7 +32,7 @@ export const projects = [
         projectPicture: projectFour,
         projectTools: "HTML - CSS - REACT",
         projectTitle: "Code-along Project",
-        projectDescription: "Tetris done following a Code-along, and then adding my own styles to it. Check it out!",
+        projectDescription: "Tetris done following a Code-along, and then adding my own styles to it. (Only Keyboard Controls).",
         projectLink: "https://tetris-peltonan.vercel.app",
         githubLink: "https://github.com/peltonan/tetris",
     },
