@@ -11,7 +11,7 @@ const AboutMe = () => {
 
                 <p>I'm constantly learning new things and want to get better. I love working on the computer and have a passion for design. I also have skills in video editing, 3D modeling and art. I'm also interested in languages, I'm fluent in: English, Finnish and Swedish.</p>
 
-                <p>In my free time, I like to play video games, create art, watch movies, read books, take walks in nature, drink tea and spend time interior decorating. I also have a soft spot for music and theater.</p>
+                <p>In my free time, I like to play video games, create art, watch movies, read books, take walks in nature, drink tea and spend time interior decorating. I also have a soft spot for tabletop games, music, and theater.</p>
 
                 <p>In a nutshell: Gamer, artist, designer, introvert, nerd.</p>
 
