@@ -33,7 +33,7 @@ function App() {
         <section className="intro">
           <div className="nameTitleWrapper">
             <h1 className="myName">Annette<span>Peltonen</span></h1>
-            <h2 className="title"><span>Future</span><span>Front End<span>Developer</span></span></h2>
+            <h2 className="title"><span>Junior</span><span>Frontend<span>Developer</span></span></h2>
           </div>
 
           <div className="navigationWrapper">
